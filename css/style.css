@@ -29,12 +29,22 @@ h2 {
     justify-content: space-between;
     list-style-type: none;
     background-color: rgb(124, 70, 152);
-    padding: 30px 200px;
+    border: 5px double rgb(106, 53, 132);
+    padding: 25px 200px;
     border-radius: 20px;
 }
 
 li {
     display: inline;
+}
+
+.bul-ul {
+    list-style-type: square;
+}
+
+.li2{
+    display: block;
+    text-decoration: underline;
 }
 
 p {
@@ -50,29 +60,34 @@ li a {
     color: rgb(226, 169, 255);
     font-size: 40px;
     padding: 10px 25px;
-    margin: 0px 5px;
+    margin: 20px 20px;
     border-radius: 20px;
+    border: 5px outset rgb(88, 58, 101)
 }
 
 li a:hover{
     color: rgb(236, 197, 255);
     background-color: rgb(32, 7, 45);
+    border-style: inset;
 }
 
 .active {
     background-color: rgb(47, 25, 59);
+    border-style: inset;
 }
 
 
 .hey-a {
     text-decoration: underline rgb(142, 62, 75);
     font-style: italic;
+    
 }
 
 .hey{
     display: block;
     font-size: 40px;
     text-align: center;
+    margin: 40px;
 }
 
 .hey-box {
@@ -80,17 +95,17 @@ li a:hover{
     background-color: rgb(138, 100, 107);
     width: fit-content;
     margin: auto;
-    border: 15px solid rgb(118, 83, 89);
-    border-radius: 170px;
-    padding: 15px;
+    border: 5px solid rgb(118, 83, 89);
+    border-radius: 100px;
+    padding: 6px;
 }
 
 .center-img {
     max-width: 500px;
     padding: 15px;
     background-color: rgb(242, 177, 188);
-    border: 15px solid rgb(182, 128, 137);
-    border-radius: 150px;
+    border: 12px solid rgb(182, 128, 137);
+    border-radius: 100px;
 }
 
 .purp-box {
@@ -122,7 +137,7 @@ li a:hover{
 .mini-img {
     margin-top: 30px;
     width: 200px;
-    height: 200px
+    height: 200px;
 }
 
 .grid-img {
@@ -158,12 +173,12 @@ timeline section:
     margin: 40px 50px;
     padding: 10px 25px;
     background-color: rgb(182, 153, 210);
-    border: 5px solid rgb(66, 27, 87);
-    border-radius: 20px;
+    border: 3px solid rgb(66, 27, 87);
+    border-radius: 50px;
 }
 
 .timeline-img {
-    max-height: 300px;
+    max-height: 250px;
     border-radius: 50px;
     border: 10px rgb(86, 52, 105) solid;
 }
@@ -177,6 +192,6 @@ timeline section:
 }
 
 .short-p {
-    width: 320px;
-    font-size: 25px;
+    width: 350px;
+    font-size: 20px;
 }
